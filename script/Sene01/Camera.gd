@@ -36,5 +36,5 @@ func _input(event):
 			oCamPos.y = oCamPos.y - 0.25
 		if event.scancode == 82:#r
 			oCamPos.y = oCamPos.y + 0.25
-		print(event.scancode )
+		#print(event.scancode )
 	self.set_translation(oCamPos)

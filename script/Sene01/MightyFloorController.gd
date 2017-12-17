@@ -7,7 +7,7 @@ var SimplexForHighmap
 var SimplexForVegetation
 
 var Terrain = []
-var TerrainElementCount = 20
+var TerrainElementCount = 8
 
 func _init(parent):
 	SimplexForHighmap 		= _softnoice.SoftNoise.new(555)
